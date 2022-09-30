@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+li input:checked + span,
+li input:checked + h3 {
+  text-decoration: line-through;
+}
